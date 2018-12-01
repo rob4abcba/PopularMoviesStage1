@@ -12,5 +12,8 @@
     <string name="settings_label_rating">Highest Ratings</string>
     <string name="settings_value_rating">top_rated</string>
     <string name="settings_value_popular">popular</string>
+    <string name="year">Year Released</string>
+    <string name="rating">Rating</string>
+    <string name="synopsis">Synopsis:</string>
 
 </resources>

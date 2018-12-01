@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.example.android.popularmoviesstage1"
         minSdkVersion 15
@@ -18,7 +18,7 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField 'String', 'MOVIE_API_KEY', '"[ADD API KEY HERE]"'
+        it.buildConfigField 'String', 'MOVIE_API_KEY', '"0167c9f2c8b945f7571a90ebfd9bfed3"'
     }
 }
 

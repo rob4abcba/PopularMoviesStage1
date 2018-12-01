@@ -15,7 +15,7 @@ public class MovieAdapter extends BaseAdapter {
 
     private final Context mContext;
     private final List<Movie> mMovies;
-    private final static String BASE_IMAGE_URL = "https://image.tmb.org/t/p";
+    private final static String BASE_IMAGE_URL = "https://image.tmdb.org/t/p/";
     private final static String IMAGE_SIZE = "w500";
 
     MovieAdapter(Context context, List<Movie> movies) {
